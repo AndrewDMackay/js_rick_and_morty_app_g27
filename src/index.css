@@ -9,6 +9,9 @@ body {
   background-color: #FFC1E1;
   text-align: center;
   color: #FFFAFA;
+  background: url('./static/unsplash_trippy_background_image_1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -18,9 +21,13 @@ h1 {
   color: whitesmoke;
   font-size: 5.0vw;
   font-weight: bolder;
-  border: 0.1vw solid whitesmoke;
+  border-radius:0.5vw;
+  border: 0.1vw solid #5CFFFF;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
-  min-width: 100.0vw
+  min-width: 96.0vw;
+  background: url('./static/unsplash_trippy_background_image_2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -35,8 +42,9 @@ h3 {
   color: whitesmoke;
   font-size: 3.0vw;
   font-weight: bolder;
-  border: 0.1vw solid whitesmoke;
-  box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
+  border-radius:0.5vw;
+  border: 0.1vw solid #5CFFFF;
+  box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;;
 }
 
 
@@ -51,9 +59,10 @@ h4 {
 color: whitesmoke;
 font-size: 5.0vw;
 font-weight: bolder;
-border: 0.1vw solid whitesmoke;
+border-radius:0.5vw;
+border: 0.1vw solid #5CFFFF;
 box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
-min-width: 100vw
+min-width: 96.0vw;
 }
 
 
@@ -68,8 +77,8 @@ button {
   color: whitesmoke;
   font-size: 2.5vw;
   font-weight: bolder;
-  border: 0.1vw solid whitesmoke;
-  border-radius: 0.8vw;
+  border-radius:0.5vw;
+  border: 0.1vw solid #5CFFFF;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
   cursor: pointer;
 }
@@ -100,9 +109,12 @@ button {
   margin: 0.25vw;
   width: 20.0vw;
   height: 25.0vw;
-  border-radius: 0.8vw;
-  border: 0.1vw solid whitesmoke;
+  border-radius:0.5vw;
+  border: 0.1vw solid #5CFFFF;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
+  background: url('./static/unsplash_trippy_background_image_2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -119,5 +131,8 @@ p {
 
 img {
   height: 14.0vw;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #5CFFFF;
+  box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
 }
 
