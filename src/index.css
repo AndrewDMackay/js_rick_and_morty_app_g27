@@ -12,6 +12,8 @@ body {
 }
 
 
+/* Headings.. */
+
 h1 {
   color: whitesmoke;
   font-size: 5.0vw;
@@ -55,6 +57,8 @@ min-width: 100vw
 }
 
 
+/* Buttons.. */
+
 button {
   margin: 1.5vw;
   padding: 1.5vw;
@@ -71,14 +75,7 @@ button {
 }
 
 
-p {
-  color: #FFFAFA;
-  font-size: 1.5vw;
-  font-weight: bold;
-  margin: 2.5vw;
-  padding: 2.5vw;
-}
-
+/* Flexbox, Gird, and Containers.. */
 
 .flexbox{
   margin: 2.0vw;
@@ -97,6 +94,8 @@ p {
 }
 
 
+/* Contents, and detail.. */
+
 .list-item{
   padding: 2.0vw 3.0vw 3.0vw 3.0vw;
   width: 20.0vw;
@@ -106,6 +105,17 @@ p {
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4
 }
 
+
+p {
+  color: #FFFAFA;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin: 2.5vw;
+  padding: 2.5vw;
+}
+
+
+/* Images, and icons.. */
 
 img {
   height: 12.0vw;
