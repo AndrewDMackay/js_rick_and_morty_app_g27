@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-// import CharacterList from '../components/CharacterList';
-// import CharacterDetail from '../components/CharacterDetail';
-// import CharacterFavourites from '../components/CharacterFavourites';
+import CharacterList from '../components/CharacterList';
+import CharacterDetail from '../components/CharacterDetail';
+import CharacterFavourites from '../components/CharacterFavourites';
 
 
 const CharacterContainer = () => {
@@ -42,3 +42,4 @@ const CharacterContainer = () => {
 }
 
 export default CharacterContainer;
+
