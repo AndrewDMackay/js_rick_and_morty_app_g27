@@ -9,8 +9,8 @@ const ListItem = ({character, onCharacterClick}) => {
 
 
   return <div className="list-item" onClick={handleClick}>
-            <img src={character.image_url} alt={character.name}/>
-            <h4>{character.name}</h4>
+            <img src={character.image} alt={character.name}/>
+            <button>{character.name}</button>
             </div>
 }
 

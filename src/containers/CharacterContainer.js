@@ -11,14 +11,14 @@ const CharacterContainer = () => {
     const [favouriteCharacters, setFavouriteCharacters] = useState([]);
 
     useEffect(() => {
-      getCharacters();
+      fetchCharacters();
     }, [])
 
 
-    const getCharacters = function(){
-        fetch('https://rickandmortyapi.com/api')
+    const fetchCharacters = function(){
+        fetch("https://rickandmortyapi.com/api/character")
         .then(res => res.json())
-        .then(characters => setCharacters(characters))
+        .then(characters => setCharacters(characters.results))
     }
 
 

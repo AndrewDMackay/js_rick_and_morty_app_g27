@@ -12,7 +12,7 @@ function App() {
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"></link>
       </head>
       <h1>RICK AND MORTY</h1>
-     <CharacterContainer />
+     <CharacterContainer/>
     </div>
   );
 }

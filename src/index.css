@@ -65,7 +65,9 @@ button {
   font-size: 2.5vw;
   font-weight: bolder;
   border: 0.1vw solid whitesmoke;
+  border-radius: 0.8vw;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
+  cursor: pointer;
 }
 
 
@@ -99,7 +101,7 @@ p {
   padding: 2.0vw 3.0vw 3.0vw 3.0vw;
   width: 20.0vw;
   height: 20.0vw;
-  border-radius: 1.5vw;
+  border-radius: 0.8vw;
   border: 0.1vw solid whitesmoke;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4
 }
