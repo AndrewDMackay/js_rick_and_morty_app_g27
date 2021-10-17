@@ -78,7 +78,7 @@ button {
 /* Flexbox, Gird, and Containers.. */
 
 .flexbox{
-  margin: 2.0vw;
+  margin: 0.0vw;
 }
 
 
@@ -88,7 +88,6 @@ button {
   flex-wrap:wrap;
   align-items: center;
   justify-content: center;
-  gap: 2.0vw;
   font-size: 1.5vw;
   font-weight: bold;
 }
@@ -97,12 +96,13 @@ button {
 /* Contents, and detail.. */
 
 .list-item{
-  padding: 2.0vw 3.0vw 3.0vw 3.0vw;
+  padding: 2.5vw;
+  margin: 0.25vw;
   width: 20.0vw;
-  height: 20.0vw;
+  height: 25.0vw;
   border-radius: 0.8vw;
   border: 0.1vw solid whitesmoke;
-  box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4
+  box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
 }
 
 
@@ -118,6 +118,6 @@ p {
 /* Images, and icons.. */
 
 img {
-  height: 12.0vw;
+  height: 14.0vw;
 }
 
