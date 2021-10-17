@@ -8,10 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFC1E1;
   text-align: center;
-  color: #FFFAFA;
   background: url('./static/unsplash_trippy_background_image_1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-shadow: 0.1vw 0.1vw #FF69B4;
 }
 
 
@@ -68,12 +68,12 @@ button {
   color: whitesmoke;
   font-size: 2.5vw;
   font-weight: bolder;
+  text-shadow: 0.1vw 0.1vw #FF69B4;
   border-radius:0.5vw;
   border: 0.1vw solid #5CFFFF;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
   cursor: pointer;
   background: url('./static/unsplash_trippy_background_image_2.jpg');
-  text-shadow: 0.1vw 0.1vw #FF69B4;
 }
 
 
@@ -119,16 +119,13 @@ button {
   border-radius:0.5vw;
   border: 0.1vw solid #5CFFFF;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
-  background-color: #FFC1E1;
-  /* background: url('./static/unsplash_trippy_background_image_2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
+  background: url('./static/unsplash_trippy_background_image_2.jpg');
 }
 
 
 p {
   color: #FFFAFA;
-  font-size: 1.5vw;
+  font-size: 2.0vw;
   font-weight: bold;
   margin: 0.5vw;
   padding: 0.5vw;
@@ -138,7 +135,7 @@ p {
 /* Images, and icons.. */
 
 img {
-  height: 14.0vw;
+  height: 15.0vw;
   border-radius: 0.5vw;
   border: 0.1vw solid #5CFFFF;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
