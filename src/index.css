@@ -18,7 +18,7 @@ body {
 /* Headings.. */
 
 h1 {
-  color: whitesmoke;
+  color: white;
   font-size: 5.0vw;
   font-weight: bolder;
   border-radius:0.5vw;
@@ -26,6 +26,7 @@ h1 {
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
   min-width: 98.7vw;
   background: url('./static/unsplash_trippy_background_image_2.jpg');
+  text-shadow: 0.1vw 0.1vw #FF69B4;
 }
 
 
@@ -33,6 +34,7 @@ h2 {
   color: whitesmoke;
   font-size: 4.0vw;
   font-weight: bolder;
+  text-shadow: 0.1vw 0.1vw #FF69B4;
 }
 
 
@@ -42,7 +44,8 @@ h3 {
   font-weight: bolder;
   border-radius:0.5vw;
   border: 0.1vw solid #5CFFFF;
-  box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;;
+  box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
+  text-shadow: 0.1vw 0.1vw #FF69B4;
 }
 
 
@@ -50,6 +53,7 @@ h4 {
   color: whitesmoke;
   font-size: 2.0vw;
   font-weight: bolder;
+  text-shadow: 0.1vw 0.1vw #FF69B4;
 }
 
 
@@ -69,6 +73,7 @@ button {
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
   cursor: pointer;
   background: url('./static/unsplash_trippy_background_image_2.jpg');
+  text-shadow: 0.1vw 0.1vw #FF69B4;
 }
 
 
@@ -90,7 +95,7 @@ button {
 }
 
 
-/* Contents, and detail.. */
+/* Items, content, and detail.. */
 
 .list-item{
   padding: 2.5vw;
@@ -109,14 +114,15 @@ button {
 .detail-item{
   padding: 2.5vw;
   margin: 0.25vw;
-  width: 20.0vw;
-  height: 25.0vw;
+  min-width: 30.0vw;
+  min-height: 30.0vw;
   border-radius:0.5vw;
   border: 0.1vw solid #5CFFFF;
   box-shadow: 0.25vw 0.25vw 0.25vw #FF69B4;
-  background: url('./static/unsplash_trippy_background_image_2.jpg');
+  background-color: #FFC1E1;
+  /* background: url('./static/unsplash_trippy_background_image_2.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 
@@ -124,8 +130,8 @@ p {
   color: #FFFAFA;
   font-size: 1.5vw;
   font-weight: bold;
-  margin: 2.5vw;
-  padding: 2.5vw;
+  margin: 0.5vw;
+  padding: 0.5vw;
 }
 
 
