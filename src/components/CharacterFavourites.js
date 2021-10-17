@@ -19,7 +19,7 @@ const CharacterFavourites = ({characters, onCharacterClick}) => {
     return (
         <div className="flexbox">
             <div className="flexbox-container">
-                <h1 className="favourite-character-heading">FAVOURITE CHARACTERS</h1>
+                <h1>FAVOURITE CHARACTERS</h1>
                 {characterFavourites}
             </div>
         </div>
