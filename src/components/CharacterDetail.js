@@ -2,16 +2,13 @@
 import React from 'react';
 // import CharacterContainer from '../containers/CharacterContainer';
 
-const CharacterDetail = ({selectedCharacter, onClickIndex, onClickFavourite}) => {
+const CharacterDetail = ({selectedCharacter, onClickIndex}) => {
 
 
     const handleClick = function(){
         onClickIndex();
     }
 
-    const handleFavourite = function(){
-        onClickFavourite();
-    }
 
   return (
       
@@ -24,7 +21,7 @@ const CharacterDetail = ({selectedCharacter, onClickIndex, onClickFavourite}) =>
                 <p>Species [ {selectedCharacter.species} ]</p>
                 <p>Gender [ {selectedCharacter.gender} ]</p>
                 <br></br>
-                <button onClick={handleFavourite}><strong>FAVOURITE..</strong></button>
+                <button><strong>FAVOURITE..</strong></button>
                 <br></br>
                 <button onClick={handleClick}><strong>BACK TO CHARACTERS..</strong></button>
             </div>    

@@ -32,15 +32,15 @@ const CharacterContainer = () => {
     }
 
 
-    const handleSetFavourite = (characterToFavourite) => {
-        const favouriteCharacters = characters.map((character) => {
-            if(character.name === characterToFavourite.name){
-                character.favourite = !character.favourite
-            }
-            return character
-        })
-        setCharacters(favouriteCharacters)
-    }
+    // const handleSetFavourite = (characterToFavourite) => {
+    //     const favouriteCharacters = characters.map((character) => {
+    //         if(character.name === characterToFavourite.name){
+    //             character.favourite = !character.favourite
+    //         }
+    //         return character
+    //     })
+    //     setCharacters(favouriteCharacters)
+    // }
  
 
     return (
