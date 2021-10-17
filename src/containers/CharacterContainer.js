@@ -7,8 +7,8 @@ import CharacterFavourites from '../components/CharacterFavourites';
 
 const CharacterContainer = () => {
     const [characters, setCharacters] = useState([]);
-    const [selectedCharacter, setSelectedCharacter, setFavouriteCharacter] = useState(null);
-    const [favouriteCharacters, setFavouriteCharacters] = useState([]);
+    const [selectedCharacter, setSelectedCharacter] = useState(null);
+
 
     useEffect(() => {
       fetchCharacters();
@@ -31,7 +31,18 @@ const CharacterContainer = () => {
         setSelectedCharacter(null);
     }
 
+
+    const handleSetFavourite = (characterToFavourite) => {
+        const favouriteCharacters = characters.map((character) => {
+            if(character.name === characterToFavourite.name){
+                character.favourite = !character.favourite
+            }
+            return character
+        })
+        setCharacters(favouriteCharacters)
+    }
  
+
     return (
         <div className="main-container">
             {!selectedCharacter ? <CharacterList characters={characters} onCharacterClick={onCharacterClick}/> : null}
