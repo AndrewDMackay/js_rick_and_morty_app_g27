@@ -22,6 +22,19 @@ const CharacterContainer = () => {
     }
 
 
+    // Promiese.all experiment..
+
+    // const fetchAllCharacters = function(){
+    //     const promises = [1, 2, 3].map((number) => {
+    //         return fetch(
+    //             `https://rickandmortyapi.com/api/character/?page=${number}`
+    //           ).then(res => res.json())
+    //     })
+    //     Promise.all(promises)
+    //     .then(characters => setAllCharacters(characters.results.flat()))
+    // }
+
+
     const onCharacterClick = function(character){
         setSelectedCharacter(character);
     }
@@ -48,6 +61,11 @@ const CharacterContainer = () => {
             {!selectedCharacter ? <CharacterList characters={characters} onCharacterClick={onCharacterClick}/> : null}
             {selectedCharacter ? <CharacterDetail selectedCharacter={selectedCharacter} onClickIndex={onClickIndex}/> : null}
             {!selectedCharacter ? <CharacterFavourites characters={characters}/> : null}
+
+            {/* Set favourite.. */}
+            {/* {selectedCharacter && <CharacterDetail character={selectedCharacter} onhandleSetFavourite={handleSetFavourite}/>}
+            {characters && <CharacterFavourites characters={characters} onselectedCharacter={onCharacterClick} /> } */}
+
         </div>
     )
 }
