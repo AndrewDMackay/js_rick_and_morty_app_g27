@@ -22,7 +22,7 @@ const CharacterContainer = () => {
     }
 
 
-    // Promiese.all experiment..
+    // Promiese.all, fetch all experiment..
 
     // const fetchAllCharacters = function(){
     //     const promises = [1, 2, 3].map((number) => {
@@ -44,6 +44,7 @@ const CharacterContainer = () => {
         setSelectedCharacter(null);
     }
 
+    // Set favourite, tag method experiment..
 
     // const handleSetFavourite = (characterToFavourite) => {
     //     const favouriteCharacters = characters.map((character) => {
@@ -62,7 +63,7 @@ const CharacterContainer = () => {
             {selectedCharacter ? <CharacterDetail selectedCharacter={selectedCharacter} onClickIndex={onClickIndex}/> : null}
             {!selectedCharacter ? <CharacterFavourites characters={characters}/> : null}
 
-            {/* Set favourite.. */}
+            {/* Set favourite, tag method experiment.. */}
             {/* {selectedCharacter && <CharacterDetail character={selectedCharacter} onhandleSetFavourite={handleSetFavourite}/>}
             {characters && <CharacterFavourites characters={characters} onselectedCharacter={onCharacterClick} /> } */}
 
